@@ -1,0 +1,391 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+/* ===== Common Style Start ===== */
+* {
+  font-family: "Inter", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #000000;
+}
+a {
+  text-decoration: none;
+}
+ul,
+li {
+  list-style-type: none;
+}
+.container {
+  max-width: 1060px;
+  margin: 0 auto;
+}
+.heading {
+  font-size: 48px;
+  font-weight: 900;
+  color: #ffffff;
+  text-transform: capitalize;
+}
+.paragraph {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+}
+.sub_heading {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 600;
+}
+.sub_para {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0.3px;
+}
+/* ===== Common Style End ===== */
+
+/* ===== Navbar Style Start ====== */
+.navbar {
+  padding-top: 57px;
+}
+.nav_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo_text {
+  color: #e6533c;
+  font-size: 36px;
+  font-weight: 800;
+}
+.menu {
+  padding: 4px;
+  border: 1px inset rgba(255, 255, 255, 0.1);
+  border-radius: 39px;
+}
+.menu ul {
+  display: flex;
+  align-items: center;
+  column-gap: 47px;
+}
+.menu ul li {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 600;
+}
+.active {
+  padding: 8px 20px;
+  background-color: #e6533c;
+  border-radius: 48px;
+}
+.bars {
+  display: none;
+}
+/* ===== Navbar Style End ====== */
+
+/* ===== Banner Style Start ===== */
+.banner {
+  padding: 32px 0 100px 0;
+}
+.banner_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  column-gap: 54px;
+  gap: 10px;
+}
+.banner_details {
+  width: 520px;
+}
+.banner_details h1 {
+  color: #ffffff;
+  font-size: 78px;
+  font-weight: 900;
+}
+.banner_details p {
+  padding: 28px 0;
+}
+.unique_heading {
+  font-family: "Miama";
+  font-family: "Dancing Script", cursive;
+  font-weight: 400;
+}
+.buttons {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+.buttons button {
+  padding: 16px 46px;
+  border-radius: 42px;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: capitalize;
+  outline: none;
+}
+.club_btn {
+  background-color: #e6533c;
+  border: 1px solid transparent;
+}
+.download_btn {
+  border: 1px solid #ffffff;
+  background: none;
+}
+/* ===== Banner Style End ===== */
+
+/* ===== Habit Change Style Start ===== */
+.habit_heading {
+  width: 671px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 auto;
+}
+.habit_heading p {
+  padding-top: 14px;
+  padding-bottom: 58px;
+}
+.habits {
+  padding-bottom: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.habit_item {
+  width: 231px;
+}
+.habit_img {
+  width: 180px;
+  height: 180px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+.habit_img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.habit_description h5 {
+  padding: 30px 0 6px 0;
+}
+/* ===== Habit Change Style End ===== */
+
+/* ===== Extra Run Style Start ===== */
+.extra_run {
+  padding-bottom: 100px;
+}
+.extra_run_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px;
+  background-color: #222222;
+  border-radius: 18px;
+}
+.extra_run_details {
+  width: 443px;
+}
+.extra_run_details h2 p {
+  background-color: transparent !important;
+}
+.extra_run_details p {
+  padding: 14px 0 34px 0;
+}
+.extra_run_image {
+  background-color: transparent;
+  border-radius: 18px;
+  overflow: hidden;
+}
+/* ===== Extra Run Style End ===== */
+
+/* ===== Training Style Start ===== */
+.training {
+  padding-bottom: 88px;
+}
+.training_heading {
+  width: 671px;
+  padding-bottom: 58px;
+}
+.training_wrapper {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+/* ===== Training Style End ===== */
+
+/* ===== Calculator Style Start */
+.bmi_calculator {
+  padding-bottom: 88px;
+}
+.calc {
+  background-color: #222222;
+}
+.calculator_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px 0;
+}
+.calculator_table h4 {
+  font-size: 28px;
+  padding-bottom: 52px;
+}
+.calculator_fields {
+  width: 577px;
+}
+.bmi_table {
+  border-collapse: collapse;
+  color: #ffffff;
+}
+.bmi_table tr,
+th,
+td {
+  padding: 20px;
+  text-align: left;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+.calculator_fields h2 {
+  font-size: 28px;
+}
+.calculator_fields p {
+  padding: 14px 0 34px 0;
+}
+.input_fields {
+  width: 577px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  padding-bottom: 20px;
+}
+.input_fields input,
+select,
+option {
+  padding: 13px 20px;
+  outline: none;
+  border: none;
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 16px;
+  font-weight: 400;
+  display: inline-block;
+  width: 100%;
+}
+.claculate_btn {
+  padding-top: 34px;
+}
+/* ===== Calculator Style End */
+
+/* ===== Team Style Start ===== */
+.team {
+  padding-bottom: 88px;
+}
+.team_wrapper {
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.team-1 {
+  background-image: url(../images/team-1.png);
+}
+.team-2 {
+  background-image: url(../images/team-2.png);
+}
+.team-3 {
+  background-image: url(../images/team-3.png);
+}
+.team-4 {
+  background-image: url(../images/team-4.png);
+}
+.team-5 {
+  background-image: url(../images/team-5.png);
+}
+.team-6 {
+  background-image: url(../images/team-6.png);
+}
+.team_item {
+  width: 326px;
+  height: 272px;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.team_item h3,
+p {
+  padding: 0 0 16px 19px;
+}
+/* ===== Team Style End ===== */
+
+/* ===== Footer Style Start ===== */
+.footer {
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 65px 0 33px 0;
+}
+.footer_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer_logo {
+  width: 443px;
+}
+.footer_head {
+  color: #e6533c;
+  font-size: 70px;
+  font-weight: 800;
+  line-height: 120%;
+  font-style: italic;
+}
+.footer_logo p {
+  padding: 20px 0 0 0;
+}
+.footer_links {
+  width: 514px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  row-gap: 20px;
+}
+.link_heading {
+  color: #ffffff;
+  font-size: 32px;
+  font-weight: 700;
+}
+.footer_list li {
+  color: rgba(255, 255, 255, 0.5);
+  padding-top: 20px;
+  font-size: 23px;
+  font-weight: 400px;
+}
+.copyright {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  padding-top: 36px;
+  margin-top: 36px;
+}
+.copyright p {
+  font-size: 20px;
+  font-weight: 400px;
+  line-height: 24px;
+  color: rgba(255, 255, 255, 0.5);
+}
+/* ===== Footer Style End ===== */

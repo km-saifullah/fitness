@@ -1,0 +1,213 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+/* ===== Common Style Start ===== */
+* {
+  font-family: "Inter", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #000000;
+}
+a {
+  text-decoration: none;
+}
+ul,
+li {
+  list-style-type: none;
+}
+.container {
+  max-width: 1060px;
+  margin: 0 auto;
+}
+.heading {
+  font-size: 48px;
+  font-weight: 900;
+  color: #ffffff;
+  text-transform: capitalize;
+}
+.paragraph {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+}
+.sub_heading {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 600;
+}
+.sub_para {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0.3px;
+}
+/* ===== Common Style End ===== */
+
+@media only screen and (max-width: 480px) {
+  .navbar {
+    padding: 20px 10px;
+  }
+  .menu {
+    display: none;
+  }
+  .bars {
+    display: block;
+    color: #ffffff;
+  }
+  .banner {
+    padding: 0 10px;
+  }
+  .buttons button {
+    padding: 12px 20px;
+    border-radius: 42px;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: capitalize;
+    outline: none;
+  }
+  .banner_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .banner_image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .habit_heading {
+    width: 100%;
+  }
+  .habit_heading h2 {
+    font-size: 32px;
+  }
+  .habits {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 20px;
+    /* flex-direction: row; */
+  }
+  .habit_description h5,
+  p {
+    text-align: center;
+  }
+  .extra_run_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: left;
+  }
+  .extra_run_details h2 {
+    text-align: left;
+    font-size: 32px;
+  }
+  .extra_run_details p {
+    text-align: left;
+  }
+  .run_btn {
+    width: 100%;
+    margin-bottom: 24px;
+  }
+  .training {
+    width: 100%;
+  }
+  .training_heading {
+    width: 100%;
+    padding-bottom: 10px;
+  }
+  .training_heading h2 {
+    width: 331px;
+    text-align: left;
+    font-size: 32px;
+  }
+  .training_heading p {
+    padding: 10px 0;
+    width: 350px;
+    text-align: left;
+    padding-left: 0;
+  }
+  .div-3,
+  .div-6 {
+    display: none;
+  }
+  .training_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .training_wrapper div {
+    width: 175px;
+    overflow: hidden;
+  }
+  .calculator_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .calculator_fields h2,
+  p {
+    padding-left: 0;
+    text-align: left;
+  }
+  .calculator_fields {
+    padding: 0 10px;
+    width: 100%;
+  }
+  .form_body .input_fields {
+    width: 100%;
+  }
+  .team_wrapper {
+    align-items: center;
+    justify-content: center;
+  }
+  .habit_heading h2,
+  p {
+    text-align: center;
+  }
+  .team_item {
+    width: 326px;
+    height: 272px;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .footer {
+    padding: 0 10px;
+  }
+  .footer_wrapper {
+    display: flex;
+    align-items: start;
+    justify-content: left;
+    flex-wrap: wrap;
+  }
+  .footer_logo p {
+    padding-left: 0;
+    text-align: left;
+    padding-bottom: 10px;
+  }
+  .footer_links {
+    display: flex;
+    align-items: start;
+    justify-content: left;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+}
